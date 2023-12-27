@@ -7284,23 +7284,25 @@ strong {
   width: 100%;
   min-height: 700px;
   position: relative;
-  padding: 10px 20%;
+  padding: 30px 0;
 }
 #custom-html-2b .phone {
-  width: 267px;
-  height: 550px;
+  max-width: 267px;
+  min-width: 175px;
+  height: auto;
   background-size: cover;
-  background-image: url('https://cdn.discordapp.com/attachments/788411339843436575/1189315333425745950/AD_Iphone_14_Pro_Max_Mockup.png?ex=659db737&is=658b4237&hm=c67b334df7ee9c40ce7d77f30d8cd8d48b229570b5a64aedaa64b50ff12e226a&');
+  background-image: url('../../../');
 }
 #custom-html-2b .text {
   color: white;
+  width: 40%;
 }
 #custom-html-2b body {
   margin: 0;
 }
-@media (max-width: 600px) {
-  #custom-html-2b .background {
-    padding: 10px 20px;
+@media (max-width: 768px) {
+  #custom-html-2b .text {
+    width: 100%;
   }
 }
 .cid-tZDAoaZK2a {

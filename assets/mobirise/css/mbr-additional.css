@@ -7284,7 +7284,7 @@ strong {
   width: 100%;
   min-height: 700px;
   position: relative;
-  padding: 0 20%;
+  padding: 10px 20%;
 }
 #custom-html-2b .phone {
   width: 267px;
@@ -7297,6 +7297,11 @@ strong {
 }
 #custom-html-2b body {
   margin: 0;
+}
+@media (max-width: 600px) {
+  #custom-html-2b .background {
+    padding: 10px 20px;
+  }
 }
 .cid-tZDAoaZK2a {
   padding-top: 5rem;

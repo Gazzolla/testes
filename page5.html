@@ -125,25 +125,72 @@
     </div>
 </section>
 
-<div id="custom-html-2b">
-    <div class="background d-flex align-items-center ">
-<div class="container">
-   <div class="row">
-        <div class="text col-12 col-md-8 d-flex flex-column justify-content-center">
-            <h3><strong>Flowch: o aplicativo que criamos para você organizar a sua empresa</strong></h3>
+<div id="custom-html-2b"><div class="background d-flex align-items-center ">
+    <div class="container">
+        <div class="row">
+            <div class="text col-12 col-md-7 d-flex flex-column justify-content-center">
+                <h3 id="title"><strong>Flowch: o aplicativo que criamos para você organizar a sua empresa</strong></h3>
 
-            <p class="mt-4">Controle total de tarefas e projetos? Conheça o Flowch, nosso app all-in-one na BPOit. Crie e gerencie listas, quadros, cronogramas e mais em um só lugar. Sincronize, compartilhe e receba feedbacks em tempo real. O Flowch: inovador, prático e já sucesso entre milhares.</p>
+                <p class="mt-4" id="1-paragraph">Controle total de tarefas e projetos? Conheça o Flowch, nosso app all-in-one na BPOit. Crie e gerencie listas, quadros, cronogramas e mais em um só lugar. Sincronize, compartilhe e receba feedbacks em tempo real. O Flowch: inovador, prático e já sucesso entre milhares.</p>
 
-            <p>Quer um app personalizado como o Flowch? Fale conosco na BPOit, especialistas em desenvolvimento mobile. Equipe qualificada, tecnologia de ponta. Transformamos sua ideia em realidade. Orçamento sem compromisso. Vamos fazer acontecer!</p>
-        </div>
+                <p id="2-paragraph">Quer um app personalizado como o Flowch? Fale conosco na BPOit, especialistas em desenvolvimento mobile. Equipe qualificada, tecnologia de ponta. Transformamos sua ideia em realidade. Orçamento sem compromisso. Vamos fazer acontecer!</p>
+            </div>
 
-        <div class="col-12 col-md-4 d-flex justify-content-center">
-           <img class="phone img-fluid" src="https://cdn.discordapp.com/attachments/788411339843436575/1189315333425745950/AD_Iphone_14_Pro_Max_Mockup.png?ex=659db737&is=658b4237&hm=c67b334df7ee9c40ce7d77f30d8cd8d48b229570b5a64aedaa64b50ff12e226a&">
+            <div class="col-12 col-md-3 d-flex justify-content-center">
+                <img id="phone" class="phone img-fluid" src="https://cdn.discordapp.com/attachments/788411339843436575/1189315333425745950/AD_Iphone_14_Pro_Max_Mockup.png?ex=659db737&is=658b4237&hm=c67b334df7ee9c40ce7d77f30d8cd8d48b229570b5a64aedaa64b50ff12e226a&">
+            </div>
+            <div class="col-12 col-md-2">
+                <div class="row flex-md-column justify-content-center align-items-center">
+                    <div class="app-icon" onclick="changeImage(1)" title="Flowch">
+                        <img src="https://cdn.discordapp.com/attachments/788411339843436575/1189686385423167508/logo.png?ex=659f10c9&is=658c9bc9&hm=f548af53a4faf25dfe690e0d1188555073d6873f5fdfb68ac84a591ab11026a4&" alt="Flowch">
+                    </div>
+                    <div class="app-icon" onclick="changeImage(2)" title="NotifyX">
+                        <img src="https://cdn.discordapp.com/attachments/788411339843436575/1189686385423167508/logo.png?ex=659f10c9&is=658c9bc9&hm=f548af53a4faf25dfe690e0d1188555073d6873f5fdfb68ac84a591ab11026a4&" alt="NotifyX">
+                    </div>
+                    <div class="app-icon" onclick="changeImage(3)" title="Mockup">
+                        <img src="https://cdn.discordapp.com/attachments/788411339843436575/1189888913062502480/udop_bioenergia_logo.jpg?ex=659fcd67&is=658d5867&hm=4caea3742af2be61892e4f2281e873a179b409aca545a2ef993518e55281fc1d&" alt="Mockup">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
 </div>
- 
-</div></div>
+
+<script>
+    function changeImage(id) {
+        var imagem = document.getElementById('phone');
+
+        var title = document.getElementById('title');
+        var first = document.getElementById('1-paragraph');
+        var second = document.getElementById('2-paragraph');
+
+        switch (id) {
+            case 1:
+                imagem.src = 'https://cdn.discordapp.com/attachments/788411339843436575/1189315333425745950/AD_Iphone_14_Pro_Max_Mockup.png?ex=659db737&amp;is=658b4237&amp;hm=c67b334df7ee9c40ce7d77f30d8cd8d48b229570b5a64aedaa64b50ff12e226a&amp;';
+                title.innerText = "Flowch: o aplicativo que criamos para você organizar a sua empresa";
+                first.innerText = "Controle total de tarefas e projetos? Conheça o Flowch, nosso app all-in-one na BPOit. Crie e gerencie listas, quadros, cronogramas e mais em um só lugar. Sincronize, compartilhe e receba feedbacks em tempo real. O Flowch: inovador, prático e já sucesso entre milhares.";
+                second.innerText = "Quer um app personalizado como o Flowch? Fale conosco na BPOit, especialistas em desenvolvimento mobile. Equipe qualificada, tecnologia de ponta. Transformamos sua ideia em realidade. Orçamento sem compromisso. Vamos fazer acontecer!";
+                break;
+            case 2:
+                imagem.src = 'https://cdn.discordapp.com/attachments/788411339843436575/1189229471862104185/01-Free-iPhone-15-Pro-Mockup.png?ex=659d6740&is=658af240&hm=8c0f24233288bc3da8418f9779bff3060f2305fbc51d20d55da3e30efd62bfc9&';
+                title.innerText = "NotifyX: o aplicativo que criamos para você organizar a sua empresa";
+                first.innerText = "NotifyX ";
+                second.innerText = "NotifyX";
+                break;
+            case 3:
+                imagem.src = 'https://cdn.discordapp.com/attachments/788411339843436575/1189691198026289304/AD_Iphone_14_Pro_Max_Mockup-Recuperado.png?ex=659f1545&is=658ca045&hm=3fcea312a87da68613d62dd0f131abcc31b57daf4d5e3dd31a62dfda70517396&';
+                title.innerText = "Mockup: o aplicativo que criamos para você organizar a sua empresa";
+                first.innerText = "Mockup";
+                second.innerText = "Mockup";
+                break;
+
+            default:
+                break;
+        }
+
+    }
+</script></div>
 
 <section data-bs-version="5.1" class="people2 growthm5 cid-tZDAoaZK2a" id="apeople2-2c">
     
@@ -227,7 +274,7 @@
                 <h5 class="mbr-section-subtitle mbr-fonts-style display-4"><strong>Receba nossas notícias</strong></h5>
                 <div class="form-wrap">
                     <div class="mbr-form" data-form-type="formoid">
-                        <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler mx-auto" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="30hJ1kwBbm0Uymt08cy2761zMrMd3sIHYBi1nF6EYK5qwG9PVyxfvPUjcRfgj8HIZNBYmvkdqv1m5iRb+dANUMhnD4WZATpmjKMpUn2H3gI9GXOkXw8vcuH/KbWgz7BB.JZjq5UKgKG7XF1eBCD+VpKuhhWLOsJwxGMv/VFWa8l49WWfNo5SAwyLDFfj1uNQeSKlbKpoQXC2tE3i90t3tONiUm6f8ppy6uFopfmscmkmdYNfYkX+1NdbVf3jCZs07">
+                        <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler mx-auto" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="T9bXFsNlmQBxHMSfb4EQ372wwkgiy/hicODf4tavljwSAh1ACC4bK770eiJX70P5oE0Y3jd8KaqOKV5f/axy5O9d+WMhYdYBSQ5k/RPABfSnZo/+nlPv1P9wKWrYXgX9.W5tv6gDjsJC847jXQkPLHSK94qrsS9ZK6dNUbKU5r0gSqWu38QRLEf2tuZz4Etqu7afY9o5ClQDmIZZrxM0O2FaYI71q0idkhfkLEA9O6KbGHsGX+sd24OTYBj5HJaN3">
                             <div class="row">
                                 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Parabéns pelo cadastro, em breve você começará a receber nossas notícias e novidades.</div>
                                 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">

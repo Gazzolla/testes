@@ -7291,14 +7291,41 @@ strong {
   min-width: 175px;
   height: auto;
   background-size: cover;
-  background-image: url('../../../');
+  background-image: url("");
 }
 #custom-html-2b .text {
   color: white;
   width: 40%;
 }
+#custom-html-2b .col-12.col-md-2 .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
 #custom-html-2b body {
   margin: 0;
+}
+#custom-html-2b .app-icon {
+  background-color: white;
+  color: white;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin: 5px;
+  transition: transform 0.3s ease-out;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#custom-html-2b .app-icon img {
+  width: 33px;
+}
+#custom-html-2b .app-icon:hover {
+  transform: scale(1.1);
 }
 @media (max-width: 768px) {
   #custom-html-2b .text {

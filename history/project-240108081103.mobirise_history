@@ -89,7 +89,9 @@
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "cookiesAlert": false,
     "global_header_custom": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-5W7PEP0SWJ\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-5W7PEP0SWJ');\n</script>",
-    "google-analytics": ""
+    "google-analytics": "",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/Jeferson%20Gazzola/Desktop/testes"
   },
   "pages": {
     "index.html": {

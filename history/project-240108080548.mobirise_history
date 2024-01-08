@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "entenda-o-que-é-uma-API-e-economize-tempo-da-sua-equipe.html",
     "theme": {
       "name": "growthm5",
       "title": "GrowthM5",
@@ -89,7 +89,9 @@
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "cookiesAlert": false,
     "global_header_custom": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-5W7PEP0SWJ\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-5W7PEP0SWJ');\n</script>",
-    "google-analytics": ""
+    "google-analytics": "",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/Jeferson%20Gazzola/Desktop/testes"
   },
   "pages": {
     "index.html": {
@@ -17285,11 +17287,11 @@
             }
           },
           "_cid": "u0LrI4knCG",
-          "_anchor": "features06-5f",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "features06-5f"
         },
         {
           "alias": false,
@@ -17389,11 +17391,11 @@
           "_sourceTheme": "orderm5",
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"features1 orderm5\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Image Border\" name=\"showImgBorder\" checked>\n        <input type=\"color\" title=\"Image Border Color\" name=\"ImgBorderColor\" value=\"#000000\" condition=\"showImgBorder\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/orderm5/components/_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ede7e2\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/orderm5/components/_images/background2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Second Bg Color\" name=\"secondBgColor\" condition=\"bg.type === 'color'\" checked>\n        <input type=\"color\" title=\"Second Color\" name=\"secondColor\" value=\"#FFFFFF\" condition=\"secondBgColor && bg.type === 'color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ede7e2\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div class=\"second-bg-color\" mbr-if=\"secondBgColor\"></div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center align-items-end\">\n            <div class=\"col-12 col-lg-7 col-text\">\n                <div class=\"text-wrapper\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                        A gestão eficiente de seus colaboradores afetam diretamente no seu produto</h1>\n                    <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Vulputate enim nulla aliquet porttitor lacus luctus accumsan. Elementum integer enim neque\n                        volutpat ac tincidunt vitae semper quis. Turpis egestas maecenas pharetra convallis posuere\n                        morbi leo urna. Sit amet commodo nulla facilisi nullam.\n                    </p>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn custom-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-iconFont\">\n                        <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                            <div class=\"btn-transform\">EXPLORE MORE</div>\n                        </a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-5 col-img\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@ADDONS_PATH@/orderm5/components/_images/features/features1.jpg\" alt=\"Mobirise Website Builder\">\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "u0Lttf6ie7",
-          "_anchor": "afeatures1-5j",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "afeatures1-5j"
         },
         {
           "alias": false,
@@ -17763,11 +17765,11 @@
           "_sourceTheme": "expertm5",
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"features5 expertm5\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showMainSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Lines</header>\n        <select title=\"Lines\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n        </select>\n        <input type=\"checkbox\" title=\"Lines Title\" name=\"showLinesTitle\" checked>\n        <input type=\"checkbox\" title=\"Lines Text\" name=\"showLinesText\" checked>\n        <input type=\"color\" title=\"Lines BG\" name=\"linesBg\" value=\"#212428\">\n        <input type=\"color\" title=\"Lines Active BG 1\" name=\"linesBg1\" value=\"#305a23\">\n        <input type=\"color\" title=\"Lines Active BG 2\" name=\"linesBg2\" value=\"#dedb7b\">\n        <input type=\"range\" inline title=\"Line Active 1\" name=\"lineActive1\" min=\"0\" max=\"100\" step=\"1\" value=\"95\">\n        <input type=\"range\" inline title=\"Line Active 2\" name=\"lineActive2\" min=\"0\" max=\"100\" step=\"1\" value=\"65\" condition=\"cardsAmount >1\">\n        <input type=\"range\" inline title=\"Line Active 3\" name=\"lineActive3\" min=\"0\" max=\"100\" step=\"1\" value=\"100\" condition=\"cardsAmount >2\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/expertm5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#212428\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/expertm5/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#212428\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12 col-lg-4\">\n                <div class=\"mbr-section-head\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\"><b>Performace com gestão eficiente</b></h3>\n                    <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\">\n                        Mollis aliquam ut porttitor leo a diam. Dolor sit amet consectetur adipiscing elit duis\n                        tristique. Mi eget mauris pharetra et ultrices neque ornare.\n                    </h5>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn custom-section-btn\" mbr-if=\"showButtons\">\n                        <a class=\"btn btn-black\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                            View Grade Report\n                        </a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-8\">\n                <div class=\"lines-container\">\n                    <p class=\"lines-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLinesTitle\" data-app-selector=\".lines-title\">\n                       <b>Performance Appraisal</b>\n                    </p>\n                    <div class=\"lines-wrap\">\n                        <div class=\"line-item-container\">\n                            <p class=\"line-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showLinesText\" data-app-selector=\".line-text\">\n                                PageSpeed\n                            </p>\n                            <div class=\"line-item\">\n                                <div class=\"line-item-active line-item-active-1\"></div>\n                            </div>\n                        </div>\n                        <div class=\"line-item-container\" mbr-if=\"cardsAmount >1\">\n                            <p class=\"line-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showLinesText\" data-app-selector=\".line-text\">\n                                Slow\n                            </p>\n                            <div class=\"line-item\">\n                                <div class=\"line-item-active line-item-active-2\"></div>\n                            </div>\n                        </div>\n                        <div class=\"line-item-container\" mbr-if=\"cardsAmount >2\">\n                            <p class=\"line-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showLinesText\" data-app-selector=\".line-text\">\n                                1.8s Fully Loaded\n                            </p>\n                            <div class=\"line-item\">\n                                <div class=\"line-item-active line-item-active-3\"></div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "u0LudizRnn",
-          "_anchor": "afeatures5-5k",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "afeatures5-5k"
         },
         {
           "_name": "features3",
@@ -19056,11 +19058,11 @@
             }
           },
           "_cid": "u0Lx38m1ZT",
-          "_anchor": "article05-5p",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "article05-5p"
         },
         {
           "_name": "article01",
@@ -19132,11 +19134,11 @@
             }
           },
           "_cid": "u0Lxly7upf",
-          "_anchor": "article01-5q",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "article01-5q"
         },
         {
           "alias": false,
@@ -19486,11 +19488,11 @@
             }
           },
           "_cid": "u0LyuQBHDz",
-          "_anchor": "features5-5r",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "features5-5r"
         },
         {
           "_name": "features3",
@@ -20853,11 +20855,11 @@
             }
           },
           "_cid": "u0LEcyjbNU",
-          "_anchor": "article07-5u",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "article07-5u"
         },
         {
           "_name": "features1",
@@ -21007,11 +21009,11 @@
             }
           },
           "_cid": "u0LFh3gl4W",
-          "_anchor": "features1-5w",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "features1-5w"
         },
         {
           "alias": false,
@@ -21383,11 +21385,11 @@
             }
           },
           "_cid": "u0LFV2FeDB",
-          "_anchor": "progress06-5x",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "progress06-5x"
         },
         {
           "_name": "features3",
